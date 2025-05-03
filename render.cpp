@@ -147,12 +147,12 @@ void render(BelaContext *context, void *userData)
     	   	error_out = 0.0;
     	}
     	// AUDIO RESET
-    	if(gResetDebouncer.fallingEdge()) {
+    	// if(gResetDebouncer.fallingEdge()) {
 
-    	}    	
-    	if(gResetDebouncer.risingEdge()) {
+    	// }    	
+    	// if(gResetDebouncer.risingEdge()) {
 
-    	}
+    	// }
     	
     	float speech_output = speech_in - error_out;
     	

@@ -7,7 +7,6 @@
 
 http://bela.io
 
-C++ Real-Time Audio Programming with Bela - Lecture 14: ADSR
 */
 
 // Debouncer.h: simple class to debounce a button
