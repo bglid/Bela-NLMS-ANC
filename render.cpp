@@ -29,8 +29,6 @@ bool gFilterOn = false;
 // set digital per audio ratio
 float gDigitalPerAnalog = 0.0;
 
-// writer pointer is handled in class
-
 // Name of the sound files (in project folder)
 std::string gSpeechFile = "noisy_speech2.wav"; 
 std::string gNoiseFile = "noisy_3.wav"; 
@@ -54,14 +52,10 @@ bool setup(BelaContext *context, void *userData)
     	return false;
 	}
 	
-	// gSpeechPlayer.setLoop(true);
-	
 	if(!gNoisePlayer.setup(gNoiseFile)) {
     	rt_printf("Error loading audio file '%s'\n", gNoiseFile.c_str());
     	return false;
 	}
-	
-	// gNoisePlayer.setLoop(true);
 	
 	//NLMS filter
 	gNLMS.setup(32, 0.0001f, 0.000001);
