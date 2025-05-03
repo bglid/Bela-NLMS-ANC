@@ -7,7 +7,6 @@
 
 http://bela.io
 
-C++ Real-Time Audio Programming with Bela - Lecture 8: Filters
 */
 
 // This is a simple class encapsulating the playback of a sound

@@ -7,7 +7,6 @@
 
 http://bela.io
 
-C++ Real-Time Audio Programming with Bela - Lecture 8: Filters
 */
 
 #include <libraries/AudioFile/AudioFile.h>
