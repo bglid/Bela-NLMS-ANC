@@ -5,7 +5,7 @@
 </div>
 
 ##### Implementation of the Normalized Least Mean Square (NLMS) algorithm on the Bela board for Adaptive Noise Cancellation (ANC).
-* ###### Created as a part of a final project for a masters course in DSP. Part of a project to implement various adaptive filters and evaluate them for speech ANC in [python](https://github.com/bglid/ANC-adaptive-filters).
+* ###### Created as a part of a larger project. Part of a project to implement various adaptive filters and evaluate them for speech ANC in [python](https://github.com/bglid/ANC-adaptive-filters).
 
 
  - - - 
